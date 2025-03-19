@@ -1,0 +1,17 @@
+.layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    margin-left: 250px; /* Default when sidebar is expanded */
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+    overflow-y: auto;
+  }
+  
+  .main-content.collapsed {
+    margin-left: 80px; /* Adjusted when sidebar is collapsed */
+  }
+  

@@ -1,0 +1,122 @@
+/* General Admin Panel Styles */
+.admin-container {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Admin Dashboard Title */
+.admin-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Error Message */
+.error {
+    color: #d9534f;
+    background: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Table Container */
+.table-container {
+    width: 100%;
+    max-width: 900px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+/* Admin Table Styling */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.admin-table th, 
+.admin-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.admin-table th {
+    background: #f4f4f4;
+    font-weight: bold;
+    color: #444;
+}
+
+.admin-table tr:hover {
+    background: #f1f1f1;
+}
+
+/* Role Dropdown Styling */
+.role-dropdown {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background: white;
+    cursor: pointer;
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin: 10px 0px;
+}
+
+.btn-user {
+    background: #007bff;
+    color: white;
+    margin-right: 5px;
+}
+
+.btn-user:hover {
+    background: #0056b3;
+}
+
+.btn-admin {
+    background: #28a745;
+    color: white;
+}
+.btn-view{
+    background: #28a745;
+    color: white;
+}
+
+.btn-admin:hover {
+    background: #1f7a35;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .table-container {
+        padding: 15px;
+    }
+
+    .admin-table th, 
+    .admin-table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}

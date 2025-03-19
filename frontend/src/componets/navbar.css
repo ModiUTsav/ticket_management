@@ -1,0 +1,46 @@
+/* navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .brand {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .username {
+    font-weight: 500;
+  }
+  
+  .login-button,
+  .logout-button {
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background: #28a745;
+  }
+  
+  .logout-button {
+    background: #dc3545;
+    border: none;
+  }
+  

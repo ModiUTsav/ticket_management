@@ -1,0 +1,203 @@
+/* General Page Styles */
+.dashboard-container {
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Dashboard Card */
+.dashboard-header {
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* Admin/User Dashboard Titles */
+.dashboard-header h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+/* Action Buttons */
+.dashboard-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.create-ticket {
+    background: #007bff;
+    color: white;
+}
+
+.create-ticket:hover {
+    background: #0056b3;
+}
+
+.logout {
+    background: #dc3545;
+    color: white;
+}
+
+.logout:hover {
+    background: #b52a35;
+}
+
+/* Stats Section */
+.stats-container {
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stats-container h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Ticket Statistics */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.stat {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.open {
+    background: #dff0ff;
+    color: #007bff;
+}
+
+.in-progress {
+    background: #fff3cd;
+    color: #ff9800;
+}
+
+.closed {
+    background: #d4edda;
+    color: #28a745;
+}
+
+/* Ticket Table */
+.tickets-container {
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+}
+
+.tickets-container h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Table Styling */
+.tickets-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tickets-table th, 
+.tickets-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tickets-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.tickets-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Status Colors */
+.status {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.status.open {
+    color: #007bff;
+}
+
+.status.in_progress {
+    color: #ff9800;
+}
+
+.status.closed {
+    color: #28a745;
+}
+
+/* View Button */
+.view-ticket {
+    background: #28a745;
+    color: white;
+}
+
+.view-ticket:hover {
+    background: #1f7a35;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .stats {
+        flex-direction: column;
+    }
+
+    .dashboard-actions {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .tickets-table th, 
+    .tickets-table td {
+        padding: 8px;
+    }
+}
