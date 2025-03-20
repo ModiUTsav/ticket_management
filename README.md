@@ -23,16 +23,19 @@ and put your own Database value and API keys And passwords
 ## 📥 Installation  
 
 ### 1️⃣ Clone the Repository
-### 2️⃣ Install Dependencies
-Frontend
-bash
-Copy
-Edit
-cd client
-npm install
+
 ```bash
 
 
 git clone https://github.com/yourusername/ticket-management-system.git
 cd ticket-management-system
+```
+
+###2️⃣ Install Dependencies
+Frontend
+```bash
+
+
+cd client
+npm install
 
