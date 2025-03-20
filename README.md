@@ -33,9 +33,38 @@ cd ticket-management-system
 
 ###2️⃣ Install Dependencies
 Frontend
+Backend
 ```bash
 
 
 cd client
 npm install
+
+cd server
+npm install
+
+```
+### 3️⃣ Configure Environment Variables
+Create a .env file inside the server/ directory:
+```ini
+PORT=5000
+MONGO_URI=mongodb+srv://your-mongo-db-uri
+JWT_SECRET=your_secret_key
+
+```
+4️⃣ Start the Application
+Backend
+Frontend
+```bash
+cd server
+nodemon server.js
+
+cd client
+npm run dev
+
+
+
+
+
+
 
