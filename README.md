@@ -22,7 +22,14 @@ and put your own Database value and API keys And passwords
 
 ## 📥 Installation  
 
-### 1️⃣ Clone the Repository  
+### 1️⃣ Clone the Repository
+### 2️⃣ Install Dependencies
+Frontend
+bash
+Copy
+Edit
+cd client
+npm install
 ```bash
 
 
